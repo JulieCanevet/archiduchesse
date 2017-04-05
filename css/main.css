@@ -138,10 +138,15 @@ header
 h1
 {
   margin-top : 20%;
+  font-family: serif;
+  color: grey;
+  margin-left: 4%;
 }
+
 /* Réglage des tailles */
 .tailles
 {
+  margin-left: 4%;
   width: 100%;
   display: flex;
   justify-content: flex-start;
