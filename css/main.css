@@ -94,12 +94,46 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html
+{
+  height: 100%;
+}
+header
+{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
 
 
+/* Taille du picto barres */
+.barres
+{
+  margin-top: 20px;
+  font-size: 200%;
+}
 
+/* logo archiduchesse */
+.logo
+{
+  width: 30%;
+  height: 30%;
+}
 
+/* Picto caddie */
+.caddie
+{
+  width: 5%;
+  height: 5%;
+  margin-top: 20px;
+}
 
-
+/* Trait délimitation header */
+hr
+{
+  width: 100%;
+  box-shadow: black;
+}
 
 
 
