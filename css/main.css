@@ -253,6 +253,46 @@ footer figure
   height:100px;
 }
 
+/* -------------------- PAGE BLOG ---------------- */
+
+.article1
+{
+  margin-left: 5%;
+  margin-top: 4px;
+}
+
+.commentaire
+
+{
+  color: lightgrey;
+  font-size: .75em;
+}
+
+.article1 figure
+{
+  width: 80%;
+  border: 1px solid black;
+}
+.article1 img
+{
+  margin: 12px;
+  width: 95%;
+  height: 95%;
+}
+.article1 p
+{
+  font-family: serif;
+}
+
+h2
+{
+  font-size: 1.90em;
+  font-family: serif;
+  color: grey;
+  margin-left: 4%;
+}
+
+
 /* VERSION TABLETTE */
 .tablette, .icon
 {
