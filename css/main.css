@@ -156,7 +156,7 @@ h1
   flex-wrap: wrap;
 }
 
-.tailles a
+.tailles a, .menu_fixe a
 {
   margin: .25em;
   text-decoration: none;
@@ -167,7 +167,7 @@ h1
   background-color: #DEDFD8;
 }
 
-.tailles a:hover
+.tailles a:hover, .menu_fixe a:hover
 {
   background-color: black;
   border: 4px solid black;
@@ -266,14 +266,25 @@ footer figure
 
   .tablette
   {
+    position: relative;
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
   }
 
+/* logo + menu + rose */
+.haut
+{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 /* Logo Archiduchesse */
-.tablette figure
+.haut figure
 {
   width: 30%;
+  height: 30%;
 }
 
 .tablette img
@@ -290,7 +301,7 @@ footer figure
 }
 
 /* Menu format tablette */
-  .tablette ul
+  .haut ul
   {
     display: inline-flex;
     list-style-type: none;
@@ -298,7 +309,7 @@ footer figure
     width: 40%;
   }
 
-  li
+  .haut li
   {
     background-color: lightgrey;
     border: 5px solid lightgrey;
@@ -307,12 +318,12 @@ footer figure
     padding: .25em;
 
   }
-  li a
+li a
   {
     text-decoration: none;
     color: grey;
   }
-  li a:hover
+li a:hover
   {
     border: 5px solid black;
     background-color: black;
@@ -320,8 +331,75 @@ footer figure
     border: black;
   }
 
+#menu
+{
+  display: inline-flex;
+  justify-content: center;
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#menu li
+{
+  display: inline-flex;
+  margin-right: 1%;
+  align-items: center;
+  height: 3em;
+  width: 75%;
+  border-left: 1px solid #F7E5F1;
+  border-top: 1px solid #F7E5F1;
+  border-right: 1px solid #F7E5F1;
+}
+.tablette
+{
+  box-shadow: none;
+}
+#menu li:hover
+{
+  background-color: #F7E5F1;
+}
+
+#menu figure
+{
+  width: 30%;
+  margin: 0;
+  margin-right: 15%;
+}
+
+#menu li span
+{
+  font-weight: normal;
+  font-size: .5em;
+}
+
+#menu h2
+{
+  font-size: 1em;
+  font-family: serif;
+  font-style: italic;
+  color: grey;
+}
+
+.menu_fixe
+{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 6%;
+  margin-left: 90%;
+}
+h1
+{
+  margin-top: 3.5%;
+  font-weight: normal;
+}
 
 
+.maison
+{
+  margin-left: 5%;
+}
 }
 
 
