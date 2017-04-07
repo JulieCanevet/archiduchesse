@@ -255,23 +255,17 @@ footer figure
 
 /* -------------------- PAGE BLOG ---------------- */
 
-.article1
+.blog
 {
   margin-left: 5%;
-  margin-top: 4px;
-}
-
-.commentaire
-
-{
-  color: lightgrey;
-  font-size: .75em;
+  position: relative;
 }
 
 .article1 figure
 {
-  width: 80%;
+  width: 70%;
   border: 1px solid black;
+  margin-left: 0;
 }
 .article1 img
 {
@@ -279,17 +273,48 @@ footer figure
   width: 95%;
   height: 95%;
 }
-.article1 p
+.texte
 {
   font-family: serif;
+  width: 75%;
+  text-align: left;
+  font-style: normal;
+  color: black;
+}
+
+.commentaire
+{
+  text-align: left;
+  color: lightgrey;
+  font-size: .75em;
 }
 
 h2
 {
   font-size: 1.90em;
   font-family: serif;
-  color: grey;
-  margin-left: 4%;
+  color: black;
+  margin-left: 0%;
+}
+h2:hover
+{
+  color: #44C2AC;
+}
+
+aside
+{
+  position: absolute;
+  margin-left: 80%;
+}
+
+aside ul
+{
+  list-style-type: none;
+}
+
+aside li a
+{
+  color: #44C2AC;
 }
 
 
