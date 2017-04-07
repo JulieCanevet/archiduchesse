@@ -259,6 +259,7 @@ footer figure
 {
   margin-left: 5%;
   position: relative;
+  margin-top: 20%;
 }
 
 .article1 figure
@@ -276,7 +277,7 @@ footer figure
 .texte
 {
   font-family: serif;
-  width: 75%;
+  width: 90%;
   text-align: left;
   font-style: normal;
   color: black;
@@ -303,20 +304,8 @@ h2:hover
 
 aside
 {
-  position: absolute;
-  margin-left: 80%;
+  display: none;
 }
-
-aside ul
-{
-  list-style-type: none;
-}
-
-aside li a
-{
-  color: #44C2AC;
-}
-
 
 /* VERSION TABLETTE */
 .tablette, .icon
@@ -485,6 +474,38 @@ footer .mobile
   display: none;
 }
 
+.blog
+{
+  margin-top: 2%;
+}
+
+aside
+{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 80%;
+}
+
+aside ul
+{
+  list-style-type: none;
+}
+span
+{
+  color: lightgrey;
+  font-style: italic;
+  font-size: .8em;
+}
+aside li a
+{
+  color: #44C2AC;
+}
+
+.texte
+{
+  width: 75%;
+}
 
 }
 
