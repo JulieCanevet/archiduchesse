@@ -253,7 +253,8 @@ footer figure
   height:100px;
 }
 
-.tablette
+/* VERSION TABLETTE */
+.tablette, .icon
 {
   display: none;
 }
@@ -351,10 +352,12 @@ li a:hover
   border-top: 1px solid #F7E5F1;
   border-right: 1px solid #F7E5F1;
 }
+
 .tablette
 {
   box-shadow: none;
 }
+
 #menu li:hover
 {
   background-color: #F7E5F1;
@@ -381,6 +384,7 @@ li a:hover
   color: grey;
 }
 
+/* Menu des tailles a droite */
 .menu_fixe
 {
   position: fixed;
@@ -389,17 +393,34 @@ li a:hover
   width: 6%;
   margin-left: 90%;
 }
+
+/* Titre "chaussettes de ville"*/
 h1
 {
   margin-top: 3.5%;
   font-weight: normal;
 }
 
-
-.maison
+/* Début du footer - premiere ligne et deuxième ligne */
+.ligne1 article, .ligne2 article
 {
-  margin-left: 5%;
+  display: inline-flex;
+  border: 1px solid lightgrey;
+  margin-top: 2em;
+  align-items: center;
 }
+
+.tablette2
+{
+  display: inline-flex;
+}
+
+footer .mobile
+{
+  display: none;
+}
+
+
 }
 
 
